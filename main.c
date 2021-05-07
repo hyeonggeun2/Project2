@@ -49,7 +49,7 @@ void filetime2(){
 
 //두 개의 파일 크기를 비교하는 함수 작성
 void sizecmp(){
-  printf("size compare\n");
+	printf("size compare\n");
 	if((int)stat1.st_size > (int)stat2.st_size)
 	{
 		printf("text1 is bigger\n");
