@@ -97,7 +97,7 @@ void datecmp(){
 			printf("text2 is early\n");
 
 		else if (localtime(&(stat1.st_mtime)) ->tm_mday < localtime(&(stat2.st_mtime))->tm_mday)
-			printf("text1 is earlyr\n");
+			printf("text1 is early\n");
 
 		else
 			printf("same date\n");
@@ -112,11 +112,11 @@ void timecmp(){
 
 	printf("time compare \n");
 	if (text1_time < text2_time)
-		printf("text 1 is early \n");
+		printf("text1 is early \n");
 	else if (text1_time == text2_time)
 		printf("same time \n");
 	else
-		printf("text 2 is early\n");
+		printf("text2 is early\n");
 
 	printf("\n");
 }
