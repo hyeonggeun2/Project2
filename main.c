@@ -112,11 +112,11 @@ void timecmp(){
 
 	printf("time compare \n");
 	if (text1_time < text2_time)
-		printf("text 1 is early \n");
+		printf("text1 is early \n");
 	else if (text1_time == text2_time)
 		printf("same time \n");
 	else
-		printf("text 2 is early\n");
+		printf("text2 is early\n");
 
 	printf("\n");
 }
