@@ -97,7 +97,7 @@ void datecmp(){
 			printf("text2 is early\n");
 
 		else if (localtime(&(stat1.st_mtime)) ->tm_mday < localtime(&(stat2.st_mtime))->tm_mday)
-			printf("text1 is earlyr\n");
+			printf("text1 is early\n");
 
 		else
 			printf("same date\n");
